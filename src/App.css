@@ -1,0 +1,14 @@
+table {
+ @apply  !border-collapse !border !border-black;
+ overflow: scroll
+}
+
+td {
+ @apply  !border !border-black px-1;
+ /* white-space: nowrap */
+}
+
+.ribbon {
+ clip-path: polygon(0 0, 100% 0, 95% 50%, 100% 100%, 0 100%, 5% 50%) !important;
+ padding: 0 5% !important;
+}
